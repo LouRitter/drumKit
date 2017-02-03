@@ -1,0 +1,16 @@
+body{
+	background-image: url('assets/back.jpg');
+	background-size: 100% auto;
+}
+#header{
+	font-family:sans-serif;
+	font-size:60px;
+	color: #FFFFFF;
+	text-align: center;
+	font-style: oblique;
+	font-weight: bold;
+}
+
+.drums{
+	margin: 20px;
+}
