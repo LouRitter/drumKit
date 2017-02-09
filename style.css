@@ -14,3 +14,18 @@ body{
 .drums{
 	margin: 20px;
 }
+.buttons{
+	margin:20px;
+   position: relative; 
+   width: 20%;
+ 
+   display: inline;
+}
+p{ 
+	font-size: 48px;
+   position: absolute; 
+   left: 90px; 
+   top:-20px;
+   width: 100%; 
+   font-weight:bold;
+}
