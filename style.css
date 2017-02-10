@@ -28,4 +28,10 @@ p{
    top:-20px;
    width: 100%; 
    font-weight:bold;
+   color: #666666;
+   pointer-events: none;
+}
+.col-md-6{
+	background-color: #FFFFFF;
+	height: 50px;
 }
