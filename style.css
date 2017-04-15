@@ -1,6 +1,9 @@
 body{
 	background-image: url('assets/back.jpg');
-	background-size: 100% auto;
+	background-size: 100% 200%;
+}
+.container{
+	height:90%;
 }
 #header{
 	font-family:sans-serif;
@@ -13,6 +16,7 @@ body{
 
 .drums{
 	margin: 20px;
+	width: 15%;
 }
 .buttons{
 	margin:20px;
@@ -24,7 +28,7 @@ body{
 p{ 
 	font-size: 48px;
    position: absolute; 
-   left: 90px; 
+   left: 40.5%; 
    top:-20px;
    width: 100%; 
    font-weight:bold;
@@ -34,4 +38,12 @@ p{
 .col-md-6{
 	background-color: #FFFFFF;
 	height: 50px;
+}
+
+@media (max-width: 997px){
+	p{
+		font-size: 26px;
+		top: -10px;
+		left: 42.5%;
+	}
 }
